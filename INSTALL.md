@@ -16,3 +16,5 @@ First release! (tested on Ubuntu)
 5. source ~/.zshrc
 
 Remember: I love potatos 🥔
+
+ALSO READ THIS: I AM NOT RESPONSIBLE FOR ANY DAMAGES CAUSED TO YOUR COMPUTE UNIT WHILE USING THIS, REFER TO LICENSE.
