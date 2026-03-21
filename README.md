@@ -33,6 +33,7 @@ ls
 cp zshrc ~/.zshrc
 # Then apply
 exec zsh (or source ~/.zshrc or just zsh if u prefer)
+#!Then u should be done!
 
 # Want to update later?
 To update later: cd into the folder → git pull → source ~/.zshrc
