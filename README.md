@@ -4,9 +4,6 @@ Basic zsh config with Oh My Posh (Night Owl theme), autosuggestions, syntax high
 
 I lub potatos 🥔
 
-
-1. **Prerequisites** (one-time setup):
-   ```bash
   ## Quick Install (Git Preferred)
 
 1. **Prerequisites** (one-time setup):
