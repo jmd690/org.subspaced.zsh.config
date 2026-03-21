@@ -1,0 +1,11 @@
+# Don't upload local history (can contain passwords!)
+.bash_history
+.zsh_history
+
+# Don't upload SSH keys or sensitive folder
+.ssh/
+.gnupg/
+
+# Don't upload temporary swap files
+*.swp
+.DS_Store
