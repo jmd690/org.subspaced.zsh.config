@@ -30,8 +30,9 @@ cd org.subspaced.zsh.config
 # Do a quick ls to make sure zshrc is there
 ls
 # If it is, then :
-mv zshrc ~/.zshrc
-
+cp zshrc ~/.zshrc
+# Then apply
+exec zsh (or source ~/.zshrc or just zsh if u prefer)
 
 # Want to update later?
 To update later: cd into the folder → git pull → source ~/.zshrc
