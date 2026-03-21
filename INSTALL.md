@@ -7,8 +7,6 @@ git clone https://github.com/jmd690/org.subspaced.zsh.config.git ~/.config/zsh/s
 
 ##Link so zsh can see (its blind)
 ln -s ~/.config/zsh/subspaced/.zshrc ~/.zshrc
-# or — if the repo has a folder called zsh or config:
-# ln -s ~/.config/zsh/subspaced/zsh/.zshrc ~/.zshrc
 
 ##Should be done!
 source ~/.zshrc
