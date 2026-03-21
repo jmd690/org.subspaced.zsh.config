@@ -32,7 +32,8 @@ ls
 # If it is, then :
 cp zshrc ~/.zshrc
 # Then apply
-exec zsh (or source ~/.zshrc or just zsh if u prefer)
+exec zsh
+#(or source ~/.zshrc or just zsh if u prefer)
 #!Then u should be done!
 
 # Want to update later?
