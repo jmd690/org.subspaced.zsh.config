@@ -21,12 +21,17 @@ mkdir -p ~/.zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.zsh/zsh-syntax-highlighting
 
+# Backup your current config first!
+[ -f ~/.zshrc ] && cp ~/.zshrc ~/.zshrc.backup-$(date +%F)
+
 # Install and apply
 git clone https://github.com/jmd690/org.subspaced.zsh.config.git
 cd org.subspaced.zsh.config
+# Do a quick ls to make sure zshrc is there
+ls
+# If it is, then :
+mv zshrc ~/.zshrc
 
-# Backup your current config first!
-[ -f ~/.zshrc ] && cp ~/.zshrc ~/.zshrc.backup-$(date +%F)
 
 # Want to update later?
 To update later: cd into the folder → git pull → source ~/.zshrc
