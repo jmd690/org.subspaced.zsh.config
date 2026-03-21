@@ -1,0 +1,17 @@
+# Created by newuser for 5.9
+# Load the plugins
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export  ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=244"
+
+# Make Tab completion pretty and case-insensitive
+autoload -Uz compinit && compinit
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
+#Aliases
+alias clr="clear"
+alias help="man zsh"
+
+# Bring back your Oh My Posh
+export PATH=$PATH:$HOME/.local/bin
+eval "$(oh-my-posh init zsh --config ~/night-owl.omp.json)"
