@@ -4,7 +4,6 @@ Basic zsh config with Oh My Posh (Night Owl theme), autosuggestions, syntax high
 
 I lub potatos 🥔
 
-## Quick Install (Git Preferred)
 
 1. **Prerequisites** (one-time setup):
    ```bash
@@ -32,9 +31,5 @@ cd org.subspaced.zsh.config
 # Backup your current config first!
 [ -f ~/.zshrc ] && cp ~/.zshrc ~/.zshrc.backup-$(date +%F)
 
-# Copy/rename
-cp zshrc ~/.zshrc
-# OR symlink for easy git pull updates:
-# ln -sf $(pwd)/zshrc ~/.zshrc
-
-source ~/.zshrc
+# Want to update later?
+To update later: cd into the folder → git pull → source ~/.zshrc
