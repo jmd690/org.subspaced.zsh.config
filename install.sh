@@ -1,6 +1,7 @@
 
 
-```bash
+#!/bin/bash
+
 # Install Oh My Posh (Ubuntu/Debian example)
 sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh
 sudo chmod +x /usr/local/bin/oh-my-posh
@@ -26,5 +27,5 @@ cp zshrc ~/.zshrc
 # Then apply
 exec zsh
 #(or source ~/.zshrc or just zsh if u prefer)
-#!Then u should be done!
+#Then u should be done!
 echo "done (bye, bye and potato) Want to update later? To update later: rm -rf ~/.zshrc && cd ~ && cd org.subspaced.zsh.config && git pull && source ~/.zshrc"
