@@ -27,6 +27,4 @@ cp zshrc ~/.zshrc
 exec zsh
 #(or source ~/.zshrc or just zsh if u prefer)
 #!Then u should be done!
-echo "done (bye, bye and potato)
-# Want to update later?
-To update later: cd into the folder → git pull → source ~/.zshrc
+echo "done (bye, bye and potato)Want to update later? To update later: rm -rf ~/.zshrc && cd ~ && cd org.subspaced.zsh.config && git pull && source ~/.zshrc"
