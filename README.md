@@ -25,6 +25,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.zsh/zsh-syntax
 [ -f ~/.zshrc ] && cp ~/.zshrc ~/.zshrc.backup-$(date +%F)
 
 # Install and apply
+cd ~
 git clone https://github.com/jmd690/org.subspaced.zsh.config.git
 cd org.subspaced.zsh.config
 # Do a quick ls to make sure zshrc is there
@@ -37,4 +38,4 @@ exec zsh
 #!Then u should be done!
 
 # Want to update later?
-To update later: cd into the folder → git pull → source ~/.zshrc
+To update later: rm -rf ~/.zshrc && cd ~ && cd org.subspaced.zsh.config && git pull && cp zshrc ~/.zshrc && source ~/.zshrc
