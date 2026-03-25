@@ -12,6 +12,7 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 alias clr="clear"
 alias help="man zsh"
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+# alias fixplasma="kquitapp6 plasmashell || killall plasmashell && kstart plasmashell"
 
 # Bring back your Oh My Posh
 export PATH=$PATH:$HOME/.local/bin
