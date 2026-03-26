@@ -5,6 +5,7 @@ chmod +x install.sh && ./install.sh
 # org.subspaced.zsh.config
 
 Basic zsh config with Oh My Posh (Night Owl theme), autosuggestions, syntax highlighting, and some aliases.
+!!!YOU NEED A NERD FONT!!!
 
 I lub potatos 🥔
 
