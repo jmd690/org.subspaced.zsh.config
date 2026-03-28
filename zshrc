@@ -16,4 +16,5 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 # Bring back your Oh My Posh
 export PATH=$PATH:$HOME/.local/bin
+export PATH=$PATH:/usr/local/bin
 eval "$(oh-my-posh init zsh --config ~/night-owl.omp.json)"
